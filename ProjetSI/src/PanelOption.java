@@ -38,9 +38,9 @@ public class PanelOption extends Panel {
 		
 		
 		JLabel lnbCourbe = new JLabel("nombre de courbe:");
-		JLabel ltitreCourbe = new JLabel("nom des courbes s�par� d'un \"  ;  \" :");
+		JLabel ltitreCourbe = new JLabel("nom des courbes séparé d'un \"  ;  \" :");
 		JLabel lnbData = new JLabel("nombre d'information:");
-		JLabel ltitreData = new JLabel("nom des informations:");
+		JLabel ltitreData = new JLabel("nom des informationsséparé d'un \"  ;  \":");
 		
 		JLabel ltitreGraph = new JLabel("Nom du graphique:");
 		JLabel ltitreAxeX = new JLabel("Nom axe X:");
@@ -79,7 +79,7 @@ public class PanelOption extends Panel {
 		lnbCourbe.setBounds(0,0,120,25);
 		ltitreCourbe.setBounds(150,0,250,25);
 		lnbData.setBounds(0,70,140,25);
-		ltitreData.setBounds(150,70,140,25);
+		ltitreData.setBounds(150,70,250,25);
 		
 		ltitreGraph.setBounds(50,150,450,25);
 		ltitreAxeX.setBounds(50,225,450,25);
