@@ -1,0 +1,19 @@
+example code arduino
+
+
+int capteur = A0;
+int value;
+
+void setup() {
+  Serial.begin(9600);
+  while(!Serial);
+
+}
+
+void loop() {
+  value = analogRead(capteur);
+  Serial.println((String)value); // ceci sont les valeur de la courbe ATTENTION les valeur sont à séparer avec des ;
+  Serial.println((String)value); // ceci sont les valeur pour le fichier ATTENTION les valeur sont à séparer avec des ;
+//Les deux ecriture Serial sont obligatoire !!!!!!!
+  delay(1000);
+}
